@@ -1,8 +1,19 @@
-nlopt (2.7.1-4) UNRELEASED; urgency=medium
+nlopt (2.7.1-6) unstable; urgency=medium
 
-  * update
+  * Team upload
+  * Patch: Python 3.13 support. (Closes: #1081637)
 
- -- Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>  Thu, 07 Jul 2022 15:50:32 +0800
+ -- Stefano Rivera <stefanor@debian.org>  Sat, 09 Nov 2024 10:23:02 -0800
+
+nlopt (2.7.1-5) unstable; urgency=medium
+
+  * Team Upload.
+  * Add maintscript to convert libnlopt-dev doc
+    symlink to directory (Closes: #1035629)
+  * Add a preinst to remove examples directory in libnlopt0
+    which should be present in -dev only
+
+ -- Nilesh Patra <nilesh@debian.org>  Sun, 14 May 2023 09:35:20 +0000
 
 nlopt (2.7.1-4) unstable; urgency=medium
 
